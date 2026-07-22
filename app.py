@@ -3,7 +3,7 @@ import numpy as np
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 
-PDF_PATH = "my_java.pdf"  # match your actual filename
+PDF_PATH = "my_doc.pdf"  # match your actual filename
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 
